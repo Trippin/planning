@@ -1,0 +1,121 @@
+{
+  "id" : 1,
+  "name" : "Route 1",
+  "nodes" : [
+    {
+    "id" : 1,
+    "coors" : LatLng,
+    "contentContainer" : [
+        {
+          "type" : "text",
+          "content" : ""
+        },
+        {
+          "type" : "image",
+          "image_url" : "http://.../bla.jpg"
+        },
+        {
+          "type" : "decision",
+          "question" : "...",
+          "answers" : [
+            {
+              "content" : "...",
+              "value" : "..."
+            },
+            {
+              "content" : "...",
+              "value" : "..."
+            },
+            {
+              "content" : "...",
+              "value" : "..."
+            },
+          ]
+        },
+        {
+          "type" : "tracking",
+          "waypoints" : [
+
+          ]
+        }
+      ]
+    "goals" : [
+      {
+        "type" : "timer",
+        "max_time" : "30"
+      },
+      {
+        "type" : "to_visit",
+        "value" : "on"
+      }
+     ],
+    "options" : [
+      {
+        "type" : "visible",
+        "value" : "on"
+      },
+      {
+        "type" : "visible_if",
+        "condition" : "node_1"
+      },
+      {
+        "type" : "waypoint",
+        "number" : 2
+      }
+     ]
+   },
+   {
+    "id" : 2,
+    "coors" : LatLng,
+    "contentContainer" : [
+        ...
+      ],
+    "goals" : [
+        {
+          "type" : "timer",
+          "max_time" : "30"
+        }
+    ]
+    },
+    {
+    "id" : 3,
+    "coors" : LatLng,
+    "contentContainer" : [
+        ...
+      ],
+    "goals" : [
+        {
+          "type" : "timer",
+          "max_time" : "30"
+        }
+    ]
+    }
+  ],
+  "contentContainer" : [
+    {
+      "type" : "image",
+      "image_url" : "http://trippin.me"
+    },
+    {
+      "type" : "text",
+      "content" : "blablablabla"
+    }
+  ],
+  "terrainTags" : [
+    {
+      "id" : 1,
+      "name" : "Feucht"
+    }
+  ],
+  "tags" : [
+    {
+      "name" : "Feucht"
+    }
+  ],
+  "goals" : [
+    {
+      "type" : "timer",
+      "max_time" : "30"
+    }
+  ]
+}
