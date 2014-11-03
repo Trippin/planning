@@ -1,53 +1,55 @@
 {
-  "id" : 1,
-  "name" : "Testroute",
-  "nodes" : [
-    {
-    "id" : 1,
-    "coors" : LatLng,
-    "contentContainer" : [
-        {
-          "type" : "text",
-          "content" : ""
-        },
-        {
-          "type" : "image",
-          "image_url" : "http://.../bla.jpg"
-        },
-        {
-          "type" : "decision",
-          "question" : "...",
-          "answers" : [
-            {
-              "content" : "...",
-              "value" : "timboisttoll"
-            },
-            {
-              "content" : "...",
-              "value" : "..."
-            },
-            {
-              "content" : "...",
-              "value" : "..."
-            },
-          ]
-        },
-        {
-          "type" : "tracking",
-          "waypoints" : [
+  "id": 1,
+  "name": "Testroute",
+  "nodes": [{
+    "coors": LatLng,
+    "contentContainer": [{
+      "type": "text",
+      "content": ""
+    }, {
+      "type": "image",
+      "image_url": "http://.../bla.jpg"
+    }, {
+      "type": "decision",
+      "question": "...",
+      "answers": [{
+        "content": "...",
+        "value": "timboisttoll"
+      }, {
+        "content": "...",
+        "value": "..."
+      }, {
+        "content": "...",
+        "value": "..."
+      }, ]
+    }, {
+      "type": "tracking",
+      "waypoints": [
 
-          ]
-        }
-      ],
-    "options" : [
-      {
-        "type" : "visible",
-        "value" : "on"
-      },
-      {
-        "type" : "visible_if",
-        "condition" : "node_1"
-      }
-     ]
-   }
+      ]
+    }],
+    "options": [{
+      "type": "visible",
+      "value": "on"
+    }, {
+      "type": "visible_if",
+      "condition": "node_1"
+    }]
+  }],
+  "terrainTags": [{
+    "name": "Verkehr",
+    "icon": ""
+  }, {
+    "name": "Wald",
+    "icon": ""
+  }, {
+    "name": "Sumpf",
+    "icon": ""
+  } {
+    "name": "Wasser",
+    "icon": ""
+  }],
+  "tags": [
+    "Yolo", "Voll funny", "geht voll ab", "GEILERSCHEISS"
+  ]
 }
